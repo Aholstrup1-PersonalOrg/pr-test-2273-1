@@ -2,5 +2,17 @@
   "$schema": "https://raw.githubusercontent.com/OleWunschmann/AL-Go/enhance-customALGoFiles-feature/Actions/.Modules/settings.schema.json",
   "type": "PTE",
   "templateUrl": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2273-pte-template-1@main",
-  "templateSha": "f7eefe63e2b6d92050018bc495438bc6e1ba79ac"
+  "templateSha": "f7eefe63e2b6d92050018bc495438bc6e1ba79ac",
+  "customALGoFiles": {
+    "filesToInclude": [
+      {
+        "filter": "CustomTemplateFile.Optional.txt"
+      }
+    ],
+    "filesToExclude": [
+      {
+        "filter": "CustomTemplateFile.Default.txt"
+      }
+    ]
+  }
 }
