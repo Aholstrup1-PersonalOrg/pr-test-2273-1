@@ -1,0 +1,15 @@
+{
+  "customALGoFiles": {
+    "filesToInclude": [
+      {
+        "filter": "StaleOnly.txt"
+      }
+    ],
+    "filesToExclude": [
+      {
+        "sourceFolder": ".github/workflows",
+        "filter": "Troubleshooting.yaml"
+      }
+    ]
+  }
+}
